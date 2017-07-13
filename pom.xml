@@ -55,16 +55,21 @@
         <mybatis.spring.version>1.3.1</mybatis.spring.version>
     </properties>
 
+    <dependencies>
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>${logback.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>${lombok.version}</version>
+        </dependency>
+    </dependencies>
 
     <dependencyManagement>
         <dependencies>
-            <!-- common package here -->
-            <dependency>
-                <groupId>ch.qos.logback</groupId>
-                <artifactId>logback-classic</artifactId>
-                <version>${logback.version}</version>
-            </dependency>
-
             <!-- https://mvnrepository.com/artifact/org.slf4j/jcl-over-slf4j -->
             <dependency>
                 <groupId>org.slf4j</groupId>
@@ -83,12 +88,6 @@
                 <groupId>joda-time</groupId>
                 <artifactId>joda-time</artifactId>
                 <version>${joda.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>org.projectlombok</groupId>
-                <artifactId>lombok</artifactId>
-                <version>${lombok.version}</version>
             </dependency>
 
             <dependency>
