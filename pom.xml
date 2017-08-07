@@ -104,6 +104,16 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
+                <groupId>com.github.cafune1853</groupId>
+                <artifactId>parent-provider</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.github.cafune1853</groupId>
+                <artifactId>parent-web</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
                 <groupId>joda-time</groupId>
                 <artifactId>joda-time</artifactId>
                 <version>${joda.version}</version>
