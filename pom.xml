@@ -81,6 +81,7 @@
         <h2.version>1.4.195</h2.version>
         <javax.persistence.version>1.0.2</javax.persistence.version>
         <groovy.version>2.4.4</groovy.version>
+        <thymeleaf.version>3.0.9.RELEASE</thymeleaf.version>
     </properties>
 
     <dependencies>
@@ -227,6 +228,11 @@
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-webmvc</artifactId>
                 <version>${spring.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.thymeleaf</groupId>
+                <artifactId>thymeleaf-spring4</artifactId>
+                <version>${thymeleaf.version}</version>
             </dependency>
             <!-- spring secure -->
             <dependency>
