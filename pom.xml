@@ -61,7 +61,7 @@
         <lombok.version>1.16.16</lombok.version>
         <guava.version>22.0</guava.version>
         <spring.version>4.3.9.RELEASE</spring.version>
-        <spring.security.version>4.2.3.RELEASE</spring.security.version>
+        <spring.security.version>5.2.10.RELEASE</spring.security.version>
         <dubbo.version>2.5.3</dubbo.version>
         <zkClient.version>0.1</zkClient.version>
         <mysql.version>5.1.38</mysql.version>
