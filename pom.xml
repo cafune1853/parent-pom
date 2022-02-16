@@ -83,7 +83,7 @@
         <javax.persistence.version>1.0.2</javax.persistence.version>
         <groovy.version>2.4.4</groovy.version>
         <thymeleaf.version>3.0.9.RELEASE</thymeleaf.version>
-        <postgresql.version>42.2.5</postgresql.version>
+        <postgresql.version>42.3.3</postgresql.version>
     </properties>
 
     <dependencyManagement>
